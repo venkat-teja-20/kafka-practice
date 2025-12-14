@@ -14,4 +14,11 @@ public class KafkaConfig {
                 .name("practicekafka1")
                 .build();
     }
+
+    @Bean
+    public NewTopic kafkaPracticeJsonTopic(){
+        return TopicBuilder
+                .name("practicekafka1_json")
+                .build();
+    }
 }
